@@ -1,7 +1,7 @@
 body,html{
     font-family: 'Open-Sans-regular';
-    color:white;
-    font-size: 16px;
+    color:#535353;
+    font-size: 22px;
     line-height: 1.8em;
 }
 
@@ -9,7 +9,6 @@ body,html{
     font-family: 'Open-Sans-600';
     background: white;
     border:0;
-    font-size: 16px;
 }
 
 .navbar-brand {
@@ -22,7 +21,8 @@ body,html{
     font-size: 18px;
 }
 
-.navbar.navbar-default .navbar-nav>li>a{
+.navbar-header .navbar-brand, .navbar-header .navbar-brand:hover,
+ .navbar.navbar-default .navbar-nav>li>a{
     color:#115788;
     font-weight: 400;
 }
@@ -30,6 +30,13 @@ body,html{
 .navbar .navbar-nav>li:hover, .navbar .navbar-nav>li:hover a{
     background-color: #115788; 
     color: white; 
+}
+
+.block .container h2{
+    color:#115788;
+    font-family: 'Open-Sans-600';
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .text-blue{
@@ -109,4 +116,68 @@ body,html{
     .navbar-header{
         padding-top: 10px;
     }
+}
+
+#splash-block {
+    margin-top: 84px;
+    height: 600px;
+    background-image: url(../img/splash1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    text-transform: uppercase;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-phone{
+    margin-top: 138px;
+}
+
+.separator .separator-content {
+  width: 100%;
+  margin: .7em auto;
+  overflow: hidden;
+  text-align: center;
+  font-weight:300;
+  color: black;
+}
+.separator .separator-content:before, 
+.separator .separator-content:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+.separator .separator-content:after {
+  margin: 0 -55% 0 .5em;
+}
+
+.block{
+    margin-bottom: 70px;
+}
+
+#block2{
+    background-image: url(../img/splash2.jpg);
+}
+
+.video-wrapper {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe, .video-wrapper object, .video-wrapper embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }

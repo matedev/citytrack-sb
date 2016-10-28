@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -20,7 +21,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#start">
+            <a class="navbar-brand" href="#">
             	<span><img id="logo" src="img/logo.png" alt=""></span>
             	<span>CityTrack</span>
             </a>
@@ -35,9 +36,57 @@
         </div>
     </div>
 </nav>
-	
+
+<div id="splash-block">
+    <div class="container">
+        <img src="img/phone.png" id="img-phone">
+    </div>  
+</div>
+
+<div class="container separator">
+        <h1 class="separator-content"><img src="img/logo.png"></h1>
+</div>
+
+<div id="block1" class="block">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
+                Indoor and outdoor positioning in Tampere city centre area
+            </h2>
+        </div>
+            <p class="text-center">
+                CityTrack project will become an unique urban test site for the design, development and piloting of modern 
+                mobility services and service-rich dense urban venues. CityTrack helps companies create a highly personalized,
+                seamless and data-driven cross-channel event and shopping experience at Tampere station area 
+                both indoors and outdoors.
+            </p>
+        
+    </div>
+</div>
+
+<div id="block2" class="block">
+    <div class="container">
+        <div class="row">
+            <p class="text-center col-sm-6">
+                CityTrack provides tools and analyzed information for venue owners to enhance their 
+                services in dense urban areas. This is achieved through combining contextual awareness 
+                of location data, traffic and people flow which includes open traffic data, customer
+                 preferences, and customer engagement. In Tampere city centre around the railway station
+                  CityTrack area includes shopping malls, parking halls, event venues, university campus, 
+                  tourist attractions, and conference facilities.
+            </p>
+            <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/HGRl9iePLFc" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
 	<div class="text-center">
-		<small>&copy; Faircity.net 2015.</small>
+		<small>&copy; CityTrack.fi 2016.</small>
 	</div>
 	
 </div>

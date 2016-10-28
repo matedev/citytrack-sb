@@ -43,13 +43,25 @@ body,html{
     }
     /*Hover line only on big screen*/
     .navbar .navbar-nav>li>a:hover::after{
-         content:"";
-         position:absolute;
-         left:25%;
-         right:25%;
-         bottom:0;
-         border:1px solid white
-        }
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .navbar .navbar-nav>li>a::after{
+        content: "";
+        position: absolute;
+        left:15%;
+        right:15%;
+        height: 2px;
+        bottom: 0;
+        background-color: white;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        transition: all 0.5s ease-in-out 0s;
+    }
 }  
 
 /*Fix Bootstrap navbar collapse*/

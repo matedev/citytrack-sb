@@ -43,6 +43,10 @@ body,html{
     color:#115788;
 } 
 
+.margin-0{
+    margin: 0;
+}
+
 @media (min-width: 768px){
     .navbar .collapse.navbar-right ul li{
         padding-bottom: 17px;
@@ -118,6 +122,14 @@ body,html{
     }
 }
 
+@media (min-width: 992px){
+    .embed-video{
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+    }
+}   
+
 #splash-block {
     margin-top: 84px;
     height: 600px;
@@ -164,20 +176,16 @@ body,html{
 
 #block2{
     background-image: url(../img/splash2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
 }
 
-.video-wrapper {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow: hidden;
+#block2 .col-md-6{
+    margin: 60px 0px 60px 0px;
 }
 
-.video-wrapper iframe, .video-wrapper object, .video-wrapper embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+.embed-video{
+    border: 20px solid #d0d0d0;
 }

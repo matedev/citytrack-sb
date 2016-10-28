@@ -67,7 +67,7 @@
 <div id="block2" class="block">
     <div class="container">
         <div class="row">
-            <p class="text-center col-sm-6">
+            <p class="text-center col-md-6 col-sm-12 margin-0">
                 CityTrack provides tools and analyzed information for venue owners to enhance their 
                 services in dense urban areas. This is achieved through combining contextual awareness 
                 of location data, traffic and people flow which includes open traffic data, customer
@@ -75,8 +75,8 @@
                   CityTrack area includes shopping malls, parking halls, event venues, university campus, 
                   tourist attractions, and conference facilities.
             </p>
-            <div class="col-sm-6">
-                <div class="embed-responsive embed-responsive-16by9">
+            <div class="col-md-6 col-sm-12">
+                <div class="embed-video embed-responsive embed-responsive-16by9">
                     <iframe src="https://www.youtube.com/embed/HGRl9iePLFc" allowfullscreen></iframe>
                 </div>
             </div>
@@ -92,6 +92,7 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.matchHeight.js" type="text/javascript"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

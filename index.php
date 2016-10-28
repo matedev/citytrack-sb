@@ -84,6 +84,66 @@
     </div>
 </div>  
 
+<div id="block3" class="block">
+     <div class="container">
+        <div class="row">
+             <p class="text-center col-sm-12">
+                 The positioning works indoors with wireless Internet, radio and bluetooth technology. 
+                 The system uses Here positioning software. Therefore CityTrack offers seamless outdoor
+                  to indoors positioning, routing and maps. CityTrack also counts in bus and train 
+                  traffic, events, shopping times, and weather. The services and applications developed 
+                  in the area can be exported to any other location using Here assets.
+             </p>
+        </div>
+    </div>
+</div>
+
+<div class="container separator">
+        <h1 class="separator-content">CityTrack Partners</h1>
+</div>
+
+<div id="block3" class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 img-container">
+                <img class="img-class" src="img/logo-uta.jpg">
+            </div>
+            <div class="col-md-4 img-container">
+                <img class="img-class" src="img/logo-finnpark.jpg">
+            </div>
+            <div class="col-md-4 img-container">
+                <img class="img-class" src="img/logo-tampere.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 img-container">
+                <img class="img-class" src="img/logo-tredea.jpg">
+            </div>
+            <div class="col-md-6 img-container">
+                <img class="img-class" src="img/logo-here.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-container">
+                <img class="img-class" src="img/logo-talo.png">
+            </div>
+            <div class="col-md-4 img-container">
+                <img class="img-class" src="img/logo-s.jpg">
+            </div>
+            <div class="col-md-4 img-container">
+                <img class="img-class" src="img/logo-allbright.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 img-container">
+                <img class="img-class" src="img/logo-k.jpg">
+            </div>
+            <div class="col-md-6 img-container">
+                <img class="img-class" src="img/logo-beemray.jpg">
+            </div>
+        </div>
+    </div>
+</div>
 
 	<div class="text-center">
 		<small>&copy; CityTrack.fi 2016.</small>

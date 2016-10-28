@@ -154,8 +154,9 @@ body,html{
   margin: .7em auto;
   overflow: hidden;
   text-align: center;
-  font-weight:300;
-  color: black;
+  font-weight:600;
+  font-size: 38px;
+  color: #115788;
 }
 .separator .separator-content:before, 
 .separator .separator-content:after {
@@ -188,4 +189,18 @@ body,html{
 
 .embed-video{
     border: 20px solid #d0d0d0;
+}
+
+.img-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-class {
+    max-width: 60%;
+    max-height: 100%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition-duration: 0.3s;
 }

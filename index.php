@@ -50,7 +50,7 @@
 <div id="block1" class="block">
     <div class="container">
         <div class="row">
-            <h2 class="text-center col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
+            <h2 class="text-center text-blue col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
                 Indoor and outdoor positioning in Tampere city centre area
             </h2>
         </div>
@@ -105,41 +105,53 @@
 <div id="block3" class="block">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 img-container">
+            <div class="col-md-2 col-sm-6 img-container">
                 <img class="img-class" src="img/logo-uta.jpg">
             </div>
-            <div class="col-md-4 img-container">
+            <div class="col-md-2 col-sm-6 img-container">
                 <img class="img-class" src="img/logo-finnpark.jpg">
             </div>
-            <div class="col-md-4 img-container">
+            <div class="col-md-2 col-sm-6 img-container">
                 <img class="img-class" src="img/logo-tampere.jpg">
             </div>
+            <div class="col-md-2 col-sm-6 img-container">
+                <img class="img-class" src="img/logo-talo.jpg">
+            </div>
+            <div class="col-md-2 col-sm-6 img-container clear-both">
+                <img class="img-class" src="img/logo-sryhma.jpg">
+            </div>
+            <div class="col-md-2 col-sm-6 img-container">
+                <img class="img-class" src="img/logo-beemray.jpg">
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-6 img-container">
+            <div class="col-md-2 col-md-push-2 col-sm-6 img-container">
                 <img class="img-class" src="img/logo-tredea.jpg">
             </div>
-            <div class="col-md-6 img-container">
+            <div class="col-md-2 col-md-push-2 col-sm-6 img-container">
                 <img class="img-class" src="img/logo-here.jpg">
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-container">
-                <img class="img-class" src="img/logo-talo.png">
+            <div class="col-md-2 col-md-push-2 col-sm-6 img-container clear-both">
+                <img class="img-class" src="img/logo-kesko.jpg">
             </div>
-            <div class="col-md-4 img-container">
-                <img class="img-class" src="img/logo-s.jpg">
-            </div>
-            <div class="col-md-4 img-container">
-                <img class="img-class" src="img/logo-allbright.png">
+            <div class="col-md-2 col-md-push-2 col-sm-6 img-container">
+                <img class="img-class" src="img/logo-allbright.jpg">
             </div>
         </div>
+    </div>
+</div>
+
+<div id="block4" class="block">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 img-container">
-                <img class="img-class" src="img/logo-k.jpg">
+            <div class="col-md-4 text-center">
+                <h2>CityTrack Project</h2>
             </div>
-            <div class="col-md-6 img-container">
-                <img class="img-class" src="img/logo-beemray.jpg">
+            <div class="col-md-4 text-center">
+                <h2>Contact Information</h2>
+            </div>
+            <div class="col-md-4 text-center">
+                <h2>Location</h2>
             </div>
         </div>
     </div>

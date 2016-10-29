@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">

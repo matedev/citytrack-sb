@@ -1,8 +1,21 @@
 body,html{
     font-family: 'Open-Sans-regular';
     color:#535353;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.8em;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 34px;
+}
+
+a, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: #fff;
 }
 
 .navbar{
@@ -34,7 +47,6 @@ body,html{
 
 .block .container h2{
     font-family: 'Open-Sans-600';
-    font-size: 32px;
     margin-bottom: 20px;
 }
 
@@ -42,8 +54,21 @@ body,html{
     color:#115788;
 } 
 
+.text-light{
+    font-family: "Open-Sans-light";
+}
+
+.text-regular{
+    font-family: "Open-Sans-regular";
+}
+
 .margin-0{
     margin: 0;
+}
+
+.padding-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 @media (min-width: 768px){
@@ -219,4 +244,7 @@ body,html{
 #block4{
     background-color: #115788;
     color: #fff;
+    line-height: 1.42857143;
+    font-size: 23px;
+    padding: 30px 0px 30px 0px;
 }

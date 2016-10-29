@@ -54,7 +54,7 @@
                 Indoor and outdoor positioning in Tampere city centre area
             </h2>
         </div>
-            <p class="text-center">
+            <p class="text-center text-light">
                 CityTrack project will become an unique urban test site for the design, development and piloting of modern 
                 mobility services and service-rich dense urban venues. CityTrack helps companies create a highly personalized,
                 seamless and data-driven cross-channel event and shopping experience at Tampere station area 
@@ -67,13 +67,14 @@
 <div id="block2" class="block">
     <div class="container">
         <div class="row">
-            <p class="text-center col-md-6 col-sm-12 margin-0">
+            <p class="text-center col-md-6 col-sm-12 margin-0 text-light">
                 CityTrack provides tools and analyzed information for venue owners to enhance their 
                 services in dense urban areas. This is achieved through combining contextual awareness 
                 of location data, traffic and people flow which includes open traffic data, customer
-                 preferences, and customer engagement. In Tampere city centre around the railway station
-                  CityTrack area includes shopping malls, parking halls, event venues, university campus, 
-                  tourist attractions, and conference facilities.
+                preferences, and customer engagement. <span class="text-blue text-regular"> In Tampere 
+                city centre around the railway station </span> CityTrack area includes <span class="text-blue text-regular"> 
+                shopping malls, parking halls, event venues, university campus, 
+                tourist attractions, and conference facilities. </span>
             </p>
             <div class="col-md-6 col-sm-12">
                 <div class="embed-video embed-responsive embed-responsive-16by9">
@@ -87,7 +88,7 @@
 <div id="block3" class="block">
      <div class="container">
         <div class="row">
-             <p class="text-center col-sm-12">
+             <p class="text-center col-sm-12 text-light">
                  The positioning works indoors with wireless Internet, radio and bluetooth technology. 
                  The system uses Here positioning software. Therefore CityTrack offers seamless outdoor
                   to indoors positioning, routing and maps. CityTrack also counts in bus and train 
@@ -146,9 +147,21 @@
         <div class="row">
             <div class="col-md-4 text-center">
                 <h2>CityTrack Project</h2>
+                <p class="text-light padding-30">
+                    CityTrack is a project of university of Tampere. The project seeks to combine 
+                    seamless indoor and outdoor positioning with other open data to provide both 
+                    local business and consumers with new opportunities and possibilities.
+                </p>
+                <p>
+                    <strong>Interested? Got questions? 
+                    Feedback?</strong> Send email to 
+                    <strong><a href="mailto:marko.luomi@uta.fi">marko.luomi@uta.fi</a></strong>.
+                    
+                </p>
             </div>
             <div class="col-md-4 text-center">
                 <h2>Contact Information</h2>
+                <h2 class="padding-30">Social Media</h2>
             </div>
             <div class="col-md-4 text-center">
                 <h2>Location</h2>

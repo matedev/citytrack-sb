@@ -71,6 +71,10 @@ a, a:hover, a:visited, a:active{
     padding-bottom: 30px;
 }
 
+.padding-t50{
+    padding-top: 50px;      
+}
+
 @media (min-width: 768px){
     .navbar .collapse.navbar-right ul li{
         padding-bottom: 17px;
@@ -247,4 +251,37 @@ a, a:hover, a:visited, a:active{
     line-height: 1.42857143;
     font-size: 23px;
     padding: 30px 0px 30px 0px;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-list li {
+    display: inline-block;
+}
+
+.social-list li a:hover, .social-list li a:focus, .social-list li a.active {
+    color: #fff;
+    background-color: #115788;
+    border: 2px solid #fff;
+}
+
+.social-list li a {
+    width: 60px;
+    height: 60px;
+    color: #115788;
+    background-color: #fff;
+    border: 2px solid #fff;
+    list-style: none;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+#map{
+    margin: 0 auto;
 }

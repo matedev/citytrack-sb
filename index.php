@@ -143,7 +143,7 @@
     </div>
 </div>
 
-<div id="block4" class="block">
+<div id="block4">
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center">
@@ -183,9 +183,9 @@
     </div>
 </div>
 
-	<div class="text-center">
-		<small>&copy; CityTrack.fi 2016.</small>
-	</div>
+<footer class="text-center">
+	<small class="text-blue text-light" >2016 &copy; All rights reserved</small>
+</footer>
 	
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -24,7 +24,8 @@ $(function() {
     var uta = {lat: 61.493736, lng: 23.778643};
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
-      center: uta
+      center: uta,
+      disableDefaultUI: true
     });
     var marker = new google.maps.Marker({
       position: uta,

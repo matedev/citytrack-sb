@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-            	<span><img id="logo" src="img/logo.png" alt=""></span>
+            	<span><img id="logo" src="img/logo.png" alt="" height="35px"></span>
             	<span>CityTrack</span>
             </a>
         </div>
@@ -45,7 +45,7 @@
 </div>
 
 <div class="container separator">
-        <h1 class="separator-content"><img src="img/logo.png"></h1>
+        <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
 </div>
 
 <div id="block1" class="block">

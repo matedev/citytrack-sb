@@ -13,9 +13,13 @@ h2{
     font-size: 34px;
 }
 
-a, a:hover, a:visited, a:active{
+a, a:hover, a:visited, a:active, a:focus{
     text-decoration: none;
-    color: #fff;
+}
+
+p{
+    padding: 0;
+    margin: 0;
 }
 
 .navbar{
@@ -71,9 +75,19 @@ a, a:hover, a:visited, a:active{
     padding-bottom: 30px;
 }
 
+.padding-t30{
+    padding-top: 30px;
+}
+
+.padding-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .padding-t50{
     padding-top: 50px;      
 }
+
 
 @media (min-width: 768px){
     .navbar .collapse.navbar-right ul li{
@@ -164,20 +178,21 @@ a, a:hover, a:visited, a:active{
     }
 }    
 
-
-#splash-block {
-    margin-top: 84px;
-    height: 600px;
-    background-image: url(../img/splash1.jpg);
+.splash-block {
     background-position: center center;
-    background-size: cover;
     width: 100%;
     z-index: -1;
     text-transform: uppercase;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#main .splash-block {
+    margin-top: 84px;
+    height: 600px;
+    background-image: url(../img/splash1.jpg);
+    background-attachment: fixed;
 }
 
 #img-phone{
@@ -210,8 +225,8 @@ a, a:hover, a:visited, a:active{
     margin-bottom: 70px;
 }
 
-#block2{
-    background-image: url(../img/splash2.jpg);
+#main #block2{
+    background-image: url(../img/bg1.jpg);
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -245,12 +260,16 @@ a, a:hover, a:visited, a:active{
     filter: grayscale(0);
 }
 
-#block4{
+#footer{
     background-color: #115788;
     color: #fff;
     line-height: 1.42857143;
     font-size: 23px;
     padding: 30px 0px 30px 0px;
+}
+
+#footer a, #footer a:hover, #footer a:visited, #footer a:active{
+    color: #fff;
 }
 
 .social-list {
@@ -289,4 +308,122 @@ a, a:hover, a:visited, a:active{
 footer{
     font-size: 14px;
     margin: 20px 0px 20px 0px;
+}
+
+#partners .splash-block{
+    margin-top: 84px;
+    height: 250px;
+    background-image: url(../img/splash2.jpg);
+}
+
+#partners #block1{
+    background-image: url(../img/bg3.jpg);
+}
+
+#partners #block1 a, #partners #block1 a:hover, #partners #block1 a:visited, #partners #block1 a:active{
+    color: #535353;
+}
+
+.btn{
+    color: #fff;
+    border-radius: 0px;
+    font-size: 24px;
+    padding: 6px 50px 6px 50px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn:visited, .btn:focus{
+    color: #fff;
+}
+
+.btn-blue{
+    background-color: #115788;
+}
+
+.btn-blue:hover{
+    border-color: #115788;
+    background-color: #fff;
+    color: #115788;
+}
+
+.btn-green{
+    background-color: #0fa9a9;
+}
+
+.btn-green:hover{
+    border-color: #0fa9a9;
+    background-color: #fff;
+    color: #0fa9a9;
+}
+
+#partners #block3 .img-class{
+    max-width: 75%;
+}
+
+#partners #block3 .row{
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.modal-body {
+    background-image: url("../img/bg5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.modal-body{
+    padding: 70px;
+}
+
+.modal-body img{
+    width:100%;
+}
+.modal-dialog{
+    max-width: 850px;
+    width: 100%;
+}
+
+#modal-contact .close{
+    color: #fff;
+    text-shadow: none;
+    box-shadow: none;
+    margin-right: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#modal-contact .modal-dialog{
+    max-width: 600px;
+}
+
+#modal-contact textarea{
+    width: 100%;
+    resize: none;
+    height: 150px;
+}
+
+.modal-header{
+    background-image: url("../img/bg4.jpg");
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 32px;
+}
+
+.form-control{
+    border-radius: 0;
+    height: 40px;
 }

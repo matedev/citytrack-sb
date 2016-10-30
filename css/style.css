@@ -272,23 +272,23 @@ p{
     color: #fff;
 }
 
-.social-list {
+#footer .social-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.social-list li {
+#footer .social-list li {
     display: inline-block;
 }
 
-.social-list li a:hover, .social-list li a:focus, .social-list li a.active {
+#footer .social-list li a:hover, .social-list li a:focus, .social-list li a.active {
     color: #fff;
     background-color: #115788;
     border: 2px solid #fff;
 }
 
-.social-list li a {
+#footer .social-list li a {
     width: 60px;
     height: 60px;
     color: #115788;
@@ -359,12 +359,11 @@ footer{
 
 #partners #block3 .img-class{
     max-width: 75%;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-#partners #block3 .row{
-    margin-bottom: 75px;
-    margin-top: 75px;
-}
+#partners #block3 .row{}
 
 .helper {
     display: inline-block;
@@ -379,7 +378,6 @@ footer{
     background-repeat: no-repeat;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-
 }
 
 .modal-body{

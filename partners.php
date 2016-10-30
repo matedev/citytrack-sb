@@ -85,8 +85,6 @@
                 <div class="col-md-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-here.jpg">
                 </div>
-            </div>  
-            <div class="row">
                 <div class="col-md-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-sryhma.jpg">
                 </div>
@@ -96,8 +94,6 @@
                 <div class="col-md-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-talo.jpg">
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-md-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-tampere.jpg">
                 </div>

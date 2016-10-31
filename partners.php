@@ -92,12 +92,6 @@
 
     <?php include 'inc/modals.php';?>
     <?php include 'inc/footer.php';?>
-
-</div>  
-
-<footer class="text-center">
-	<small class="text-blue text-light" >2016 &copy; All rights reserved</small>
-</footer>
 	
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

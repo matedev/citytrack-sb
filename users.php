@@ -17,96 +17,65 @@
 
 <?php include 'inc/menu.php';?>
 
-<div id="blog">
-    <div class="splash-block">
+<div id="users">
+    <div class="splash-block"></div>
+
+    <div class="container separator">
+        <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
     </div>
 
+    <div class="block1 block">
         <div class="container">
-
-            <div class="separator">
-                <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
-            </div>
-
-            <div id="posts" class="block">
-                <div class="row apost">
-                    <div class="post-header col-md-12">
-                            <p>Posted on <span id="post-date">16.10.2016</span>
-                            <strong> by <span id="post-author">XY</span></strong></p>
-                        
-                    </div>
-                    <div class="post-img col-md-5">
-                        <div class="img-container text-center">
-                            <img class="img-responsive" src="img/blog-img.jpg">
-                        </div>
-                    </div>
-                    <div class="post-body col-md-7">
-                        <h1 class="post-title text-blue">
-                            This is the title of a blog post
-                        </h1>
-                        <p class="post-text demo1">
-                            CityTrack project will become an unique urban test site for the design, 
-                            development and piloting of modern mobility services and service-rich 
-                            dense urban venues. CityTrack helps companies create a highly 
-                            personalized,seamless and data-driven cross-channel event....                                                                       
-                        </p>
-                        <p class="text-right">
-                            <button type="button" class="btn btn-blue" data-toggle="" href=''>Read more</button>
-                        </p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="img/logo.png" height="63px">
+                    <h2 class="text-blue">What is CityTrack?</h2>
+                    <div class="text-light users-description">
+                        <p>CityTrack is an application in development designed to make your life easier. 
+                        Once the app is finished, it will guide you around Tampere city centre, both 
+                        indoors and outdoors. It will also inform you of possible interesting events 
+                        near you,  and have awesome offers from local businesses.</p>
                     </div>
                 </div>
-                <div class="row apost">
-                    <div class="post-header col-md-12">
-                            <p>Posted on <span id="post-date">16.10.2016</span>
-                            <strong> by <span id="post-author">XY</span></strong></p>
-                        
-                    </div>
-                    <div class="post-img col-md-5">
-                        <div class="img-container text-center">
-                            <img class="img-responsive" src="img/blog-img.jpg">
-                        </div>
-                    </div>
-                    <div class="post-body col-md-7">
-                        <h1 class="post-title text-blue">
-                            This is the title of a blog post
-                        </h1>
-                        <p class="post-text demo1">
-                            CityTrack project will become an unique urban test site for the design, 
-                            development and piloting of modern mobility services and service-rich 
-                            dense urban venues. CityTrack helps companies create a highly 
-                            personalized,seamless and data-driven cross-channel event....                                                                       
-                        </p>
-                        <p class="text-right">
-                            <button type="button" class="btn btn-blue" data-toggle="" href=''>Read more</button>
-                        </p>
+                <div class="col-md-4 text-center">
+                    <img src="img/logo.png" height="63px">
+                    <h2 class="text-blue">Possibilities</h2>
+                    <div class="text-light users-description">
+                        <p>In the future, CityTrack app will combine open data from different resources. 
+                        It will know if there are traffic jams, when the next bus to your destination is 
+                        coming, where to park your car if you want to take a train from the railway 
+                        station, and much more.</p>
+                        <p>The app’s indoor positioning is made possible with 
+                        wireless networks and Bluetooth low energy technology.</p>
                     </div>
                 </div>
-                <div class="row apost">
-                    <div class="post-header col-md-12">
-                            <p>Posted on <span id="post-date">16.10.2016</span>
-                            <strong> by <span id="post-author">XY</span></strong></p>
-                        
-                    </div>
-                    <div class="post-img col-md-5">
-                        <div class="img-container text-center">
-                            <img class="img-responsive" src="img/blog-img.jpg">
-                        </div>
-                    </div>
-                    <div class="post-body col-md-7">
-                        <h1 class="post-title text-blue">
-                            This is the title of a blog post
-                        </h1>
-                        <p class="post-text demo1">
-                            CityTrack project will become an unique urban test site for the design, 
-                            development and piloting of modern mobility services and service-rich 
-                            dense urban venues. CityTrack helps companies create a highly 
-                            personalized,seamless and data-driven cross-channel event....                                                                       
-                        </p>
-                        <p class="text-right">
-                            <button type="button" class="btn btn-blue" data-toggle="" href=''>Read more</button>
-                        </p>
-                    </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/logo.png" height="63px">
+                    <h2 class="text-blue">Download the app</h2>
+                    <div class="text-light users-description">
+                        <p>The app is only developed for Android at first, iOS app unfortunately won’t 
+                        be available as fast. The first version of the Android app should be available
+                         for download in Google’s Play Store towards the end of the year 2016. More 
+                         accurate information will be published here later.</p>
+                         <p>Some partners will 
+                         develop their own apps on top of our CityTrack app, a link to those apps 
+                         will also be posted here once those apps are available in Play Store.</p>
+                     </div>
                 </div>
             </div>
+        </div>         
+    </div>
+
+    <div class="block2 block">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="text-blue">Would you like to test CityTrack?</h2>
+                <p class="text-light">Make a reservation</p>
+            </div>
+        </div>
+    </div>
+            
+
 
 
 

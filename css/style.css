@@ -203,6 +203,10 @@ p{
     margin-top: 138px;
 }
 
+.separator {
+    margin-bottom: 70px;
+}
+
 .separator .separator-content {
   width: 100%;
   margin: .7em auto;
@@ -451,7 +455,7 @@ footer{
     height: 40px;
 }
 
-#blog .splash-block{
+#blog .splash-block, #users .splash-block{
     margin-top: 84px;
     height: 250px;
     background-image: url(../img/splash3.jpg);
@@ -471,4 +475,14 @@ footer{
 #blog #posts .post-text{
     font-size: 22px;
     line-height: normal;
+}
+
+#users .users-description{
+    text-align: justify;
+    line-height: normal;
+    padding: 15px 15px 15px 15px;
+}
+
+#users .users-description p{
+    margin-top: 20px;
 }

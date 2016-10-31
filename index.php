@@ -23,7 +23,7 @@
             <img src="img/phone.png" id="img-phone">
         </div>  
     </div>
-
+    
     <div class="container separator">
             <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
     </div>

@@ -73,7 +73,7 @@
             <h1 class="separator-content">CityTrack Project Partners</h1>
     </div>
 
-    <div id="block3" class="block">
+    <div id="partner-block" class="block">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 img-container">
@@ -100,11 +100,9 @@
                 <div class="col-md-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-kesko.jpg">
                 </div>
-                <div class="col-md-4 col-sm-6 img-container clear-both">
+                <div class="col-md-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-tredea.jpg">
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-md-4 col-md-push-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-uta.jpg">
                 </div>
@@ -112,8 +110,8 @@
         </div>
     </div>
 
-    <?php include 'modals.php';?>
-    <?php include 'footer.php';?>
+    <?php include 'inc/modals.php';?>
+    <?php include 'inc/footer.php';?>
 
 </div>  
 

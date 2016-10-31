@@ -173,7 +173,7 @@ p{
 }  
 
 @media (max-width: 991px){
-    #block3 .clear-both{
+    #partner-block .clear-both{
         clear: both;
     }
 }    
@@ -357,13 +357,14 @@ footer{
     color: #0fa9a9;
 }
 
-#partners #block3 .img-class{
-    max-width: 75%;
+#partner-block .img-class{
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-#partners #block3 .row{}
+#partners #partner-block .img-class{
+    max-width: 75%;
+}
 
 .helper {
     display: inline-block;

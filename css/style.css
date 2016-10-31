@@ -333,12 +333,12 @@ footer{
     transition: all 0.2s ease-in-out 0s;
 }
 
-.btn:visited, .btn:focus{
-    color: #fff;
-}
-
 .btn-blue{
     background-color: #115788;
+}
+
+.btn-blue:visited, .btn-blue:focus, .btn-green:visited, .btn-green:focus{
+    color: #fff;
 }
 
 .btn-blue:hover{
@@ -355,6 +355,21 @@ footer{
     border-color: #0fa9a9;
     background-color: #fff;
     color: #0fa9a9;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #115788;
+}
+
+.btn-white:hover{
+    border-color: #fff;
+    background-color: #115788;
+    color: #fff;
+}
+
+.btn-white:visited, .btn-white:focus{
+    color: #115788;
 }
 
 #partner-block .img-class{
@@ -425,4 +440,10 @@ footer{
 .form-control{
     border-radius: 0;
     height: 40px;
+}
+
+#blog .splash-block{
+    margin-top: 84px;
+    height: 250px;
+    background-image: url(../img/splash3.jpg);
 }

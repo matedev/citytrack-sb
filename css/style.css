@@ -7,7 +7,7 @@ body,html{
 
 h1{
     font-size: 36px;
-}
+}s
 
 h2{
     font-size: 34px;
@@ -176,6 +176,10 @@ p{
     #partner-block .clear-both{
         clear: both;
     }
+
+    #blog #posts .img-container img{
+        margin: 0 auto;
+    }
 }    
 
 .splash-block {
@@ -299,6 +303,7 @@ p{
     text-align: center;
     padding-top: 7px;
     text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 #map{
@@ -368,8 +373,12 @@ footer{
     color: #fff;
 }
 
-.btn-white:visited, .btn-white:focus{
+.btn-white:focus{
     color: #115788;
+}
+
+.btn-white:focus:hover{
+    color: #fff;
 }
 
 #partner-block .img-class{
@@ -446,4 +455,20 @@ footer{
     margin-top: 84px;
     height: 250px;
     background-image: url(../img/splash3.jpg);
+}
+
+#blog #posts .post-header p{
+    font-size: 14px;
+    color: #115788;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+}
+
+#blog #posts .apost{
+   margin-bottom: 50px; 
+}
+
+#blog #posts .post-text{
+    font-size: 22px;
+    line-height: normal;
 }

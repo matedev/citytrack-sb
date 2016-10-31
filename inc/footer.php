@@ -60,3 +60,12 @@
     <footer class="text-center">
         <small class="text-blue text-light" >2016 &copy; All rights reserved</small>
     </footer>
+
+    <?php include 'inc/modals.php';?>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.matchHeight.js" type="text/javascript"></script>
+<script src="js/truncate.js" type="text/javascript"></script>
+<script src="js/main.js"></script>

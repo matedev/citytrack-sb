@@ -13,10 +13,10 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li><a href="#">Citytrack</a></li>
-                <li><a href="#">Users</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="index.php">Citytrack</a></li>
+                <li><a href="users.php">Users</a></li>
+                <li><a href="partners.php">Partners</a></li>
+                <li><a href="blog.php">Blog</a></li>
             </ul>
         </div>
     </div>

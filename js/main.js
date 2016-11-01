@@ -13,3 +13,14 @@ $( document ).ready(function() {
         'showText': 'Read More', 'hideText': "Read Less", 'animate':true
     });
 })
+
+
+(function($) {
+    $(document).ready(function() {
+
+        $('.navbar-nav li a').on('click',function(e){
+            $(this).parent().parent().find('.active').removeClass('active');
+            $(this).parent().addClass('active');
+        })
+    });
+})(jQuery);

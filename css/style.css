@@ -48,6 +48,11 @@ p{
     background-color: #115788; 
     color: white; 
 }
+ 
+.navbar .navbar-nav li.active{
+    background-color: #115788; 
+    color: white; 
+}
 
 .block .container h2{
     font-family: 'Open-Sans-600';

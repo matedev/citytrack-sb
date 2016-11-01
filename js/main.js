@@ -1,17 +1,3 @@
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top-70
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
 
 $(function() {
     $('#block2 .col-md-6').matchHeight();
@@ -19,3 +5,11 @@ $(function() {
     $('#block3 .img-container').matchHeight();
     $('#partner-block .img-container').matchHeight();
 });
+
+$( document ).ready(function() {
+    $('.users-description').truncate({
+    'maxLines': 3,
+    'truncateString': '&nbsp;&#8230;',
+    'showText': 'Read More', 'hideText': "Read Less", 'animate':true
+});
+})

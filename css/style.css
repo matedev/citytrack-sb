@@ -485,4 +485,9 @@ footer{
 
 #users .users-description p{
     margin-top: 20px;
+} 
+
+#users .users-description a.hide{
+    display: inline-block !important;
 }
+

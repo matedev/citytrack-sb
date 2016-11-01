@@ -41,7 +41,7 @@
                     <img src="img/logo.png" height="63px">
                     <h2 class="text-blue">Possibilities</h2>
                     <div class="text-light users-description">
-                        <p>In the future, CityTrack app will combine open data from different resources. 
+                        <p class="text-truncate">In the future, CityTrack app will combine open data from different resources. 
                         It will know if there are traffic jams, when the next bus to your destination is 
                         coming, where to park your car if you want to take a train from the railway 
                         station, and much more.</p>

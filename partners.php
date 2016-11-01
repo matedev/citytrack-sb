@@ -20,13 +20,11 @@
 <div id="partners">
     <div class="splash-block"></div>
 
-    <div class="separator container">
-        <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
-    </div>
-
     <div id="block1" class="block">
         <div class="container">
-
+            <div class="separator">
+                <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
+            </div>
             <div class="row">
                 <h2 class="text-center text-blue col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
                     Interested in the pilot?
@@ -78,10 +76,10 @@
                     <span class="helper"></span><img class="img-class" src="img/logo-tampere.jpg">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-kesko.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-tredea.jpg">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-tredea.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-kesko.jpg">
                 </div>
                 <div class="col-md-4 col-md-push-4 col-sm-6 img-container">
                     <span class="helper"></span><img class="img-class" src="img/logo-uta.jpg">

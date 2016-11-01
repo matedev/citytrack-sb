@@ -54,35 +54,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-beemray.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-beemray.jpg" alt="Beemray logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-allbright.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-allbright.jpg" alt="Tampere All Bright logo">
                 </div>
 
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-here.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-here.jpg" alt="Here logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-sryhma.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-sryhma.jpg" alt="Shryma logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container clear-both">
-                    <span class="helper"></span><img class="img-class" src="img/logo-finnpark.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-finnpark.jpg" alt="Finnpark logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-talo.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-talo.jpg" alt="Tampere Talo logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-tampere.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-tampere.jpg" alt="Tampere logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-tredea.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-tredea.jpg" alt="Tredea logo">
                 </div>
                 <div class="col-md-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-kesko.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-kesko.jpg" alt="Kesko logo">
                 </div>
                 <div class="col-md-4 col-md-push-4 col-sm-6 img-container">
-                    <span class="helper"></span><img class="img-class" src="img/logo-uta.jpg">
+                    <span class="helper"></span><img class="img-class" src="img/logo-uta.jpg" alt="UTA logo">
                 </div>
             </div>
         </div>

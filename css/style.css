@@ -322,6 +322,10 @@ footer{
     margin-bottom: 38px;
 }
 
+#blog .separator{
+    margin-bottom: 50px;
+}
+
 .helper {
     display: inline-block;
     height: 100%;

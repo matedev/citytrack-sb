@@ -44,7 +44,7 @@
                         CityTrack project will become an unique urban test site for the design, 
                         development and piloting of modern mobility services and service-rich 
                         dense urban venues. CityTrack helps companies create a highly 
-                        personalized,seamless and data-driven cross-channel event....                                                                       
+                        personalized,seamless and data-driven cross-channel event....
                     </p>
                     <p class="text-right">
                         <button type="button" class="btn btn-blue" data-toggle="" href=''>Read more</button>

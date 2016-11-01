@@ -48,16 +48,18 @@
     <div id="block2" class="block">
         <div class="container">
             <div class="row">
-                <p class="text-center col-md-6 col-sm-12 margin-0 text-light">
-                    CityTrack provides tools and analyzed information for venue owners to enhance their 
-                    services in dense urban areas. This is achieved through combining contextual awareness 
-                    of location data, traffic and people flow which includes open traffic data, customer
-                    preferences, and customer engagement. <span class="text-blue text-regular"> In Tampere 
-                    city centre around the railway station </span> CityTrack area includes <span class="text-blue text-regular"> 
-                    shopping malls, parking halls, event venues, university campus, 
-                    tourist attractions, and conference facilities. </span>
-                </p>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 padding-t60 padding-b60">
+                    <p class="text-center margin-0 text-light">
+                        CityTrack provides tools and analyzed information for venue owners to enhance their 
+                        services in dense urban areas. This is achieved through combining contextual awareness 
+                        of location data, traffic and people flow which includes open traffic data, customer
+                        preferences, and customer engagement. <span class="text-blue text-regular"> In Tampere 
+                        city centre around the railway station </span> CityTrack area includes <span class="text-blue text-regular"> 
+                        shopping malls, parking halls, event venues, university campus, 
+                        tourist attractions, and conference facilities. </span>
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12 padding-t60 padding-b60">
                     <div class="embed-video embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/HGRl9iePLFc" allowfullscreen></iframe>
                     </div>

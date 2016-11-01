@@ -8,8 +8,8 @@ $(function() {
 
 $( document ).ready(function() {
     $('.users-description').truncate({
-    'maxLines': 3,
-    'truncateString': '&nbsp;&#8230;',
-    'showText': 'Read More', 'hideText': "Read Less", 'animate':true
-});
+        'maxLines': 5,
+        'truncateString': '&nbsp;&#8230;',
+        'showText': 'Read More', 'hideText': "Read Less", 'animate':true
+    });
 })

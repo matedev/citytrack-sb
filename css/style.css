@@ -88,99 +88,14 @@ p{
     padding-top: 50px;      
 }
 
-
-@media (min-width: 768px){
-    .navbar .collapse.navbar-right ul li{
-        padding-bottom: 17px;
-        padding-top: 17px;
-    }
-    /*Hover line only on big screen*/
-    .navbar .navbar-nav>li>a:hover::after{
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-
-    .navbar .navbar-nav>li>a::after{
-        content: "";
-        position: absolute;
-        left:15%;
-        right:15%;
-        height: 2px;
-        bottom: 0;
-        background-color: white;
-        visibility: hidden;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.5s ease-in-out 0s;
-    }
-}  
-
-/*Fix Bootstrap navbar collapse*/
-@media (max-width: 1000px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .navbar-brand {
-        padding: 8px 15px;
-    }
+.padding-t60{
+    padding-top: 60px;
 }
 
-@media (min-width: 1000px){
-    .navbar-header{
-        padding-top: 10px;
-    }
+.padding-b60{
+    padding-bottom: 60px;
 }
 
-@media (min-width: 992px){
-    .embed-video{
-        margin: auto;
-        position: absolute;
-        top: 0; left: 0; bottom: 0; right: 0;
-    }
-}  
-
-@media (max-width: 991px){
-    #partner-block .clear-both{
-        clear: both;
-    }
-
-    #blog #posts .img-container img{
-        margin: 0 auto;
-    }
-}    
 
 .splash-block {
     background-position: center center;
@@ -204,12 +119,13 @@ p{
 }
 
 .separator {
-    margin-bottom: 70px;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .separator .separator-content {
   width: 100%;
-  margin: .7em auto;
+  margin: 10px auto;
   overflow: hidden;
   text-align: center;
   font-weight:600;
@@ -229,8 +145,13 @@ p{
   margin: 0 -55% 0 .5em;
 }
 
+.separator.partner-separator{
+    padding-top: 40px;
+    margin-top: 0;
+}
+
 .block{
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 #main #block2{
@@ -239,10 +160,6 @@ p{
     background-size: cover;
     width: 100%;
     z-index: -1;
-}
-
-#block2 .col-md-6{
-    margin: 60px 0px 60px 0px;
 }
 
 .embed-video{
@@ -312,6 +229,8 @@ p{
 
 #map{
     margin: 0 auto;
+    width:305px;
+    height:284px;
 }
 
 footer{
@@ -385,9 +304,13 @@ footer{
     color: #fff;
 }
 
+#partner-block{
+    margin-bottom: 20px;
+}
+
 #partner-block .img-class{
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #partners #partner-block .img-class{
@@ -487,7 +410,115 @@ footer{
     margin-top: 20px;
 } 
 
+/*Must be overrided as Bootstrap has its own hide class*/
 #users .users-description a.hide{
-    display: inline-block !important;
+    display: block !important;
 }
 
+#users .users-description a{
+    text-align: right;
+    font-size: 20px;
+}
+
+
+
+/***** Media queries*****/
+
+@media (min-width: 768px){
+    .navbar .collapse.navbar-right ul li{
+        padding-bottom: 17px;
+        padding-top: 17px;
+    }
+    /*Hover line only on big screen*/
+    .navbar .navbar-nav>li>a:hover::after{
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .navbar .navbar-nav>li>a::after{
+        content: "";
+        position: absolute;
+        left:15%;
+        right:15%;
+        height: 2px;
+        bottom: 0;
+        background-color: white;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        transition: all 0.5s ease-in-out 0s;
+    }
+}  
+
+@media (max-width: 767px){
+    .img-container {
+        margin-top: 40px;
+        margin-bottom: 40px;    }
+}
+
+/*Fix Bootstrap navbar collapse*/
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-brand {
+        padding: 8px 15px;
+    }
+}
+
+@media (min-width: 1000px){
+    .navbar-header{
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 992px){
+    .embed-video{
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+    }
+}  
+
+@media (max-width: 991px){
+    #partner-block .clear-both{
+        clear: both;
+    }
+
+    #blog #posts .img-container img{
+        margin: 0 auto;
+    }
+}    

@@ -8,7 +8,7 @@
                         seamless indoor and outdoor positioning with other open data to provide both 
                         local business and consumers with new opportunities and possibilities.
                     </p>
-                    <p class="padding-t500">
+                    <p>
                         <strong>Interested? Got questions? 
                         Feedback?</strong> Send email to 
                         <strong><a href="mailto:marko.luomi@uta.fi">marko.luomi@uta.fi</a></strong>.
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <h2>Contact Information</h2>
-                    <h2 class="padding-30">Social Media</h2>
+                    <h2 class="padding-30 margin-0">Social Media</h2>
                     <ul class="social-list">
                         <li><a href="" class="red fa fa-facebook fa-2x"></a></li>
                         <li><a href="" class="red fa fa-youtube fa-2x"></a></li>
@@ -31,7 +31,7 @@
                     <h2>Location</h2>
                     <p class="text-light padding-30">Kalevantie 4, 331000 Tampere</p>
 
-                    <div id="map" style="width:305px;height:288px"></div>
+                    <div id="map"></div>
 
                     <script async defer
                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA85EbXOHHYAgKFEGcAI5tthnldERQMTbo&callback=initMap">

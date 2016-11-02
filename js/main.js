@@ -21,4 +21,9 @@ $(document).ready(function() {
         $(this).parent().parent().find('.active').removeClass('active');
         $(this).parent().addClass('active');
     })
+ 
+    $( "#datepicker" ).datepicker({
+        
+    });
 });
+

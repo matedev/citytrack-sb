@@ -553,6 +553,66 @@ footer {
 }
 
 /**
+* jQuery DatePicker restyle
+*
+* Style for the calendar used on users page.
+*/
+
+#datepicker .ui-datepicker{
+    border: none;
+    color: #115788;
+    font-family: 'Open-Sans-regular';
+}
+
+#datepicker .ui-datepicker-header{
+    background-color: #115788;
+    color: #fff;
+    font-family: 'Open-Sans-600';
+}
+
+#datepicker .ui-datepicker-header .ui-widget-header .ui-icon,
+#datepicker .ui-datepicker-header.ui-widget-header .ui-icon {
+    background: none;
+}
+
+#datepicker .ui-datepicker-header .ui-datepicker-next {
+    background-image: url(../img/btn-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#datepicker .ui-datepicker-header .ui-datepicker-prev {
+    background-image: url(../img/btn-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+#datepicker .ui-datepicker-header .ui-datepicker-next:hover,
+#datepicker .ui-datepicker-header .ui-datepicker-prev:hover{
+    background-color: #115788;
+    border: none; 
+    border-radius: 0;
+}
+
+#datepicker .ui-datepicker-header .ui-datepicker-prev,
+#datepicker .ui-datepicker-header .ui-datepicker-prev-hover {
+    left: 2px;
+    top: 4px;
+}
+#datepicker .ui-datepicker-header .ui-datepicker-next,
+#datepicker .ui-datepicker-header .ui-datepicker-next-hover{
+    right: 2px;
+    top: 4px;
+}
+
+/**
 * Media queries
 *
 * Media queries applied all over the site.

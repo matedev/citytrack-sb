@@ -523,9 +523,9 @@ footer {
 }
 
 /**
-* User page style
+* Users page style
 *
-* Styles applied on user page.
+* Styles applied on users page.
 */
 
 #users .users-description {
@@ -546,6 +546,10 @@ footer {
 #users .users-description a {
     font-size: 20px;
     text-align: right;
+}
+
+#users .block1{
+    margin-top: 80px;
 }
 
 /**

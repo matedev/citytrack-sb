@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="img/logo.png" height="63px">
+                    <img src="img/icon_1.png" height="63px">
                     <h2 class="text-blue">What is CityTrack?</h2>
                     <div class="text-light users-description">
                         <p>CityTrack is an application in development designed to make your life easier. 
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="img/logo.png" height="63px">
+                    <img src="img/icon_2.png" height="63px">
                     <h2 class="text-blue">Possibilities</h2>
                     <div class="text-light users-description">
                         <p class="text-truncate">In the future, CityTrack app will combine open data from different resources. 
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="img/logo.png" height="63px">
+                    <img src="img/icon_3.png" height="63px">
                     <h2 class="text-blue">Download the app</h2>
                     <div class="text-light users-description">
                         <p>The app is only developed for Android at first, iOS app unfortunately won’t 

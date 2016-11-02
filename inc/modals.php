@@ -7,27 +7,27 @@
       <div class="modal-body">
         <form id="contactform" method="" role="form">
           <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name" class="text-blue">Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
           </div>
 
            <div class="form-group">
-            <label for="name">E-mail</label>
+            <label for="name" class="text-blue">E-mail</label>
             <input type="text" class="form-control" id="e-mail" name="email" placeholder="Enter your e-mail">
           </div>
 
           <div class="form-group">
-            <label for="name">Subject</label>
+            <label for="name" class="text-blue">Subject</label>
             <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject">
           </div>
 
           <div class="form-group">
-            <label for="name">Message</label>
+            <label for="name" class="text-blue">Message</label>
             <textarea name="msg" id="input" class="form-control" rows="3"></textarea>
           </div>
 
           <div class="btnwrap text-right"> 
-            <button type="submit" class="btn btn-green sendbtn">Send</button>
+            <button type="submit" class="btn btn-blue sendbtn">Send</button>
           </div>
         </form>
       </div>

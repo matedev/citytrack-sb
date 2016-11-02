@@ -339,9 +339,16 @@ footer {
 * Styles applied on modals.
 */
 
+
 .modal-body {
-    padding: 70px;
+    background-image: url("../img/bg5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 50px 70px;
 }
+
 
 .modal-body img {
     width: 100%;
@@ -366,7 +373,7 @@ footer {
 }
 
 #modal-contact textarea {
-    height: 150px;
+    height: 120px;
     resize: none;
     width: 100%;
 }
@@ -376,14 +383,29 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 32px;
-    padding: 50px 0px 50px 0px;
+    font-size: 24px;
+    padding: 33px 0px 33px 0px;
     text-transform: uppercase;
 }
 
 .form-control {
     border-radius: 0;
     height: 40px;
+}
+
+.modal-body .form-group label{
+    font-size: 15px;
+    line-height: normal;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.modal-body .form-group{
+    margin-bottom: 0px;
+}
+
+.modal-body button[type=submit]{
+    margin-top: 15px;
 }
 
 /**
@@ -470,14 +492,6 @@ footer {
     margin-bottom: 50px;
 }
 
-.modal-body {
-    background-image: url("../img/bg5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-}
-
 /**
 * Blog page style
 *
@@ -539,6 +553,11 @@ footer {
 *
 * Media queries applied all over the site.
 */
+@media (min-width: 616px) {
+    .modal-body input {
+        width: 80%;
+    }
+}
 
 @media (min-width: 768px) {
     .navbar .collapse.navbar-right ul li {

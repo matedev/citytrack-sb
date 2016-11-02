@@ -15,12 +15,10 @@ $( document ).ready(function() {
 })
 
 
-(function($) {
-    $(document).ready(function() {
+$(document).ready(function() {
 
-        $('.navbar-nav li a').on('click',function(e){
-            $(this).parent().parent().find('.active').removeClass('active');
-            $(this).parent().addClass('active');
-        })
-    });
-})(jQuery);
+    $('.navbar-nav li a').on('click',function(e){
+        $(this).parent().parent().find('.active').removeClass('active');
+        $(this).parent().addClass('active');
+    })
+});

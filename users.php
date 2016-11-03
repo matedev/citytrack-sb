@@ -56,23 +56,12 @@
                 <h2 class="text-blue">Would you like to test CityTrack?</h2>
                 <p class="text-light">Make a reservation</p>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="datepicker"></div>
-                </div>
-            </div>
         </div>
     </div>
-            
+</div>  
 
+<?php include 'inc/partners.php';?>
+<?php include 'inc/footer.php';?>
 
-
-
-        </div>
-    
-
-    <?php include 'inc/partners.php';?>
-    <?php include 'inc/footer.php';?>
-    
 </body>
 </html>

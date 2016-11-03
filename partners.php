@@ -29,6 +29,49 @@
         </div>
     </div>
 
+    <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block cd-timeline-block-disabled">
+            <div class="cd-timeline-img cd-picture"> 
+                <i class="fa fa-group text-white text-center" aria-hidden="true"></i>
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2 class="text-blue">Initial meeting</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                <button type="button" class="btn btn-blue btn-attend" data-toggle="modal" data-title="initial meeting" 
+                data-date="Oct 30" data-desc="Please note: meeting starts at 9:00 in Pinni B 1029." href='#modal-attend'>Attend</button>
+                <span class="cd-date">Oct 30</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture"> 
+                <i class="fa fa-info text-white text-center" aria-hidden="true"></i>
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2 class="text-blue">Kick off meeting</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                <button type="button" class="btn btn-blue btn-attend" data-toggle="modal" data-title="kick off meeting" 
+                data-date="Nov 14" data-desc="Please note: meeting starts at 9:00 in Pinni B 1029." href='#modal-attend'>Attend</button>
+                <span class="cd-date">Nov 14</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <i class="fa fa-cogs text-white text-center" aria-hidden="true"></i>
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2 class="text-blue">Technical meeting</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+                <button type="button" class="btn btn-blue btn-attend" data-toggle="modal" data-title="technical meeting" 
+                data-date="Nov 18" data-desc="Please note: meeting starts at 9:00 in Pinni B 1029." href='#modal-attend'>Attend</button>
+                <span class="cd-date">Nov 18</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+    </section> <!-- cd-timeline -->
+
 
     <div class="container separator">
             <h1 class="separator-content">CityTrack Project Partners</h1>

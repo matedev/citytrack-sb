@@ -69,4 +69,6 @@
 <script src="js/jquery.matchHeight.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/jquery.truncate.js"></script>
 <script src="js/jquery-ui.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/timeline.js"></script> <!-- Modernizr -->
 <script src="js/main.js"></script>

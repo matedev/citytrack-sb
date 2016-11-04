@@ -1,15 +1,15 @@
-<?php include 'inc/header.php';?>
+<?php include 'header.php';?>
 <?php include 'inc/menu.php';?>
 
 <div id="main">
     <div class="splash-block">
         <div class="container">
-            <img src="img/phone.png" id="img-phone">
+            <img src="assets/img/phone.png" id="img-phone">
         </div>  
     </div>
     
     <div class="container separator">
-            <h1 class="separator-content"><img src="img/logo.png" height="63px"></h1>
+            <h1 class="separator-content"><img src="assets/img/logo.png" height="63px"></h1>
     </div>
 
     <div id="block1" class="block">

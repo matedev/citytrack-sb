@@ -1,0 +1,247 @@
+[33mcommit e6a6f8e727341a31c7872d277fc785dc2093e7bf[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Thu Nov 3 15:27:07 2016 +0200
+
+    Change calendar to timeline with modal
+
+[33mcommit b6ab01d04b5685701363c9188b52ecb189e0f705[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Wed Nov 2 11:59:33 2016 +0200
+
+    Redisgn Calendar header
+
+[33mcommit a30f4435df7f3639a0a0d171321f9be1391003f0[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Wed Nov 2 10:41:27 2016 +0200
+
+    Add jquery ui
+
+[33mcommit ab053f352e6eb0d475ac08a4502503a06786227f[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Wed Nov 2 10:40:59 2016 +0200
+
+    Fix users page icons
+
+[33mcommit e282d1f987a0412ebc1fd4cef489ed4998de6734[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Wed Nov 2 09:42:53 2016 +0200
+
+    Fix contact form
+
+[33mcommit 0b7e333ffa9afbffaad9ef5f2b6645c356722b37[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 15:53:04 2016 +0200
+
+    Add header.php
+
+[33mcommit d2c7496240ce38c5e13d725a293eb65828ac66bc[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 15:50:38 2016 +0200
+
+    Add alt tag to images
+
+[33mcommit e1e7dbb1a755ef35a05196490e13bc6af0911771[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 15:45:20 2016 +0200
+
+    Prettify style
+
+[33mcommit 9ec530f317c00fb99f933ff5b8b2b6b80e825dea[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 13:19:23 2016 +0200
+
+    Add menu links
+
+[33mcommit 799db316e84be7dbf4ef73acc714ee38251fa037[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 12:56:42 2016 +0200
+
+    Blog page pixel fix
+
+[33mcommit b704d12540e650b075aec8427599b2b857b6f1f2[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 12:42:09 2016 +0200
+
+    Partner page pixel fix
+
+[33mcommit 8a8bc23b8526a52c5f79e41efa94190fb65a1e4e[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 12:23:40 2016 +0200
+
+    Main page pixel fix
+
+[33mcommit 64f05b8330f0551357b63da5066219baf71b931b[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 10:25:41 2016 +0200
+
+    Add users.php toggle function
+
+[33mcommit b4386f439b6adfd3ebb6363317558966389ba682[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Tue Nov 1 10:24:57 2016 +0200
+
+    Change truncate.js to jQuery.truncate.js
+
+[33mcommit a18dd3909484784dfe30651582f142208b0f2033[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 16:41:10 2016 +0200
+
+    Draft users.php
+
+[33mcommit 887e4148ee10bf0707f9e18713444e449a9c4d93[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 15:11:01 2016 +0200
+
+    Add users.php
+
+[33mcommit 15bae478ad019bb72704112d8e7f56d3703c5183[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 15:09:43 2016 +0200
+
+    Add blog
+
+[33mcommit a6d3824026fd1cf186c05e4d88b4a7d5b60dd787[m
+Merge: 5dbdcdc 1e57a92
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 11:25:24 2016 +0200
+
+    Init blog.php
+
+[33mcommit 5dbdcdcb8e2a0aec5c59a275cd6ce7cdbef38383[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 11:23:49 2016 +0200
+
+    Init blog.php
+
+[33mcommit 1e57a9232494e34eafe205cff2889b4b0e5d7f3a[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 11:04:06 2016 +0200
+
+    Fix Google Map, fix footer
+
+[33mcommit d77f43433b781986af1c79b3e5c6c47578819ed7[m
+Merge: aeab775 7ec6654
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 10:14:02 2016 +0200
+
+    Fix menu
+
+[33mcommit aeab7756f2a4fc31146442240358ddfbf0faac2e[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 10:11:20 2016 +0200
+
+    Change project structure
+
+[33mcommit 7ec66544731d80c6b2a71e41a158617a3bef1ed5[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 10:06:30 2016 +0200
+
+    Change project structure
+
+[33mcommit 01ae75cf297878c2fcf32c34e7e55099d7048b10[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Mon Oct 31 10:05:54 2016 +0200
+
+    Fix logos responsive
+
+[33mcommit d1327aa956f8b755e2c09b778da536889c57dcdf[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sun Oct 30 23:56:04 2016 +0200
+
+    Fix partner logos
+
+[33mcommit 555475667318702acdee23d67bedb630534997bc[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sun Oct 30 22:45:28 2016 +0200
+
+    Add modal & partners
+
+[33mcommit d4a8ebcc691fd79111898aeda864640285515065[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sun Oct 30 13:23:13 2016 +0200
+
+    Fix images and logo
+
+[33mcommit 98b9e59fbdfad0103f6336636eb596328b2d194e[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sat Oct 29 23:41:41 2016 +0300
+
+    Add footer
+
+[33mcommit 008f16713bbf9812d5a8058a700b421e7927680b[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sat Oct 29 23:31:18 2016 +0300
+
+    Add social meda & map
+
+[33mcommit 00466d8d2fb39c3c4804763f0c6c1473647bafa1[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sat Oct 29 22:35:04 2016 +0300
+
+    Add Font-awesome
+
+[33mcommit 6ed6ac6da4c3de28ebcb6bc27c8e9a8b97b9100b[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sat Oct 29 22:30:22 2016 +0300
+
+    Add footer
+
+[33mcommit 6eae13235734dc00680a31fc9d24b5877ee4deb4[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Sat Oct 29 20:50:50 2016 +0300
+
+    Partners logo fix
+
+[33mcommit ae4d754199baa8388970a5fc8c72917d275207c8[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Fri Oct 28 16:01:32 2016 +0300
+
+    Add partners
+
+[33mcommit aa40d3736f7041bd512446f66db617919e3f2b2f[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Fri Oct 28 15:22:04 2016 +0300
+
+    Add block2
+
+[33mcommit f852099dfa5455316094da5a3291c3c590f37d34[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Fri Oct 28 14:43:36 2016 +0300
+
+    Add matchHeight.js
+
+[33mcommit 2a098b5086ad37de21b8ac4c6954aa497f87b36b[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Fri Oct 28 14:42:41 2016 +0300
+
+    Add block1
+
+[33mcommit f4a4b1f8a1f80ad0060ffd69513b4b1539d72102[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Fri Oct 28 10:55:39 2016 +0300
+
+    Menu animation
+
+[33mcommit 0be9cfeb79b55af5abf968f15f3e32c7a29ccbc1[m
+Author: Máté Kis-Király <Máté Kis-Király>
+Date:   Fri Oct 28 10:45:55 2016 +0300
+
+    Fix fonts
+
+[33mcommit 5115a9cfd56491a661fe62487b9cac9de4f998aa[m
+Author: kkmate <kis.kiraly.mate@gmail.com>
+Date:   Fri Oct 14 10:09:11 2016 +0200
+
+    Add menu
+
+[33mcommit 34cb4219e6d84bc1278a4bfef2fbc00a205b02a4[m
+Author: kkmate <kis.kiraly.mate@gmail.com>
+Date:   Thu Oct 6 09:13:16 2016 +0200
+
+    Add gitignore
+
+[33mcommit ccade4d9290172d03bae927fa442313791405b4c[m
+Author: matedev <kis.kiraly.mate@gmail.com>
+Date:   Thu Oct 6 09:10:21 2016 +0200
+
+    Initial commit

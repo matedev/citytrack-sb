@@ -13,10 +13,10 @@ $(document).ready(function() {
         'showText': 'Read More', 'hideText': "Read Less", 'animate':true
     });
 
-    $('.navbar-nav li a').on('click',function(e){
+    /*$('.navbar-nav li a').on('click',function(e){
         $(this).parent().parent().find('.active').removeClass('active');
         $(this).parent().addClass('active');
-    })
+    })*/
 
 });
 
